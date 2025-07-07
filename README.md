@@ -2,7 +2,7 @@
 
 **Project Objective:** To demonstrate and exploit each of OWASP Top 10 2021 Web Vulnerabilities using intentionally vulnerable web applications.
 
-**Tools Used:** Burpsuite
+**Tools Used:** Burpsuite, SQLite3, JohnTheRipper
 
 **Lab:** https://tryhackme.com/room/owasptop102021
 

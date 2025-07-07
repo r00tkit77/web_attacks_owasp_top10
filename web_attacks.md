@@ -7,6 +7,105 @@ The OWASP Top Ten is a widely recognized list that outlines the most critical se
 ![image](https://github.com/user-attachments/assets/b8fb34de-edcb-4f75-8256-cdfb8ecb91b6)
 <br><br>
 
+**MITRE ATT&CK Mapping:**
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>OWASP Top 10 (2021) Category</th>
+      <th>Mapped MITRE ATT&amp;CK Technique&nbsp;ID&nbsp;&&nbsp;Name</th>
+      <th>ATT&amp;CK Tactic(s)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><strong>1. Broken Access Control</strong></td>
+      <td>
+        T1078 – Valid Accounts<br>
+        T1081 – Credentials in Files<br>
+        T1550 – Use Alternate Authentication Material
+      </td>
+      <td>Initial Access, Persistence, Privilege Escalation</td>
+    </tr>
+    <tr>
+      <td><strong>2. Cryptographic Failures</strong></td>
+      <td>
+        T1552 – Unsecured Credentials<br>
+        T1608.005 – Upload Malicious File<br>
+        T1040 – Network Sniffing
+      </td>
+      <td>Credential Access, Collection</td>
+    </tr>
+    <tr>
+      <td><strong>3. Injection</strong></td>
+      <td>
+        T1190 – Exploit Public‑Facing Application<br>
+        T1505.003 – Server Software Component
+      </td>
+      <td>Initial Access, Execution</td>
+    </tr>
+    <tr>
+      <td><strong>4. Insecure Design</strong></td>
+      <td>
+        T1565 – Data Manipulation<br>
+        T1556 – Modify Authentication Process
+      </td>
+      <td>Privilege Escalation, Impact</td>
+    </tr>
+    <tr>
+      <td><strong>5. Security Misconfiguration</strong></td>
+      <td>
+        T1068 – Exploitation for Privilege Escalation<br>
+        T1203 – Exploitation for Client Execution
+      </td>
+      <td>Execution, Privilege Escalation</td>
+    </tr>
+    <tr>
+      <td><strong>6. Vulnerable &amp; Outdated Components</strong></td>
+      <td>
+        T1190 – Exploit Public‑Facing Application<br>
+        T1210 – Exploitation of Remote Services
+      </td>
+      <td>Initial Access, Execution</td>
+    </tr>
+    <tr>
+      <td><strong>7. Identification &amp; Authentication Failures</strong></td>
+      <td>
+        T1110 – Brute Force<br>
+        T1556 – Modify Authentication Process<br>
+        T1078 – Valid Accounts
+      </td>
+      <td>Credential Access, Privilege Escalation</td>
+    </tr>
+    <tr>
+      <td><strong>8. Software &amp; Data Integrity Failures</strong></td>
+      <td>
+        T1195 – Supply Chain Compromise<br>
+        T1554 – Compromise Client Software Binary
+      </td>
+      <td>Initial Access, Execution</td>
+    </tr>
+    <tr>
+      <td><strong>9. Security Logging &amp; Monitoring Failures</strong></td>
+      <td>
+        T1562.001 – Disable/Modify Security Tools<br>
+        T1562.004 – Disable/Modify System Logging
+      </td>
+      <td>Defense Evasion</td>
+    </tr>
+    <tr>
+      <td><strong>10. Server‑Side Request Forgery (SSRF)</strong></td>
+      <td>
+        T1213 – Data from Information Repositories<br>
+        T1559 – Inter‑Process Communication
+      </td>
+      <td>Collection, Lateral Movement</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+
 Here we will demonstrate and exploit each of these vulnerabilities one by one on TryHackMe's OWASP Top 10 - 2021 lab (https://tryhackme.com/room/owasptop102021).
 <br><br>
 

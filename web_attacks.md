@@ -145,12 +145,15 @@ Mitigation: Disable unused features and services, configure security headers, ap
 
 Using outdated libraries, frameworks or software components with known vulnerabilities can expose the application to exploits including third-party softwares.
 
-Tools like whatweb can identify web technologies
 Example:
 
-Here we have a vulnerable online book store.
+Here we have an online book store.
 
 ![image](https://github.com/user-attachments/assets/a29c04cc-0acc-4809-97da-a9f84cf75124)
+
+Whatweb scan reveals it uses php version 8.0.21 which is outdated and vulnerable.
+
+![image](https://github.com/user-attachments/assets/bd480447-6de4-44cc-b898-e4a778686955)
 
 Searching for exploits on ExploitDB. You can also use SearchSploit.
 
@@ -158,7 +161,7 @@ Searching for exploits on ExploitDB. You can also use SearchSploit.
 
 ![image](https://github.com/user-attachments/assets/735b4453-fe26-4fb6-9248-39aea1247183)
 
-Using this exploit and we have achieved remote code execution on the website's server OS.
+Using this exploit and we have achieved remote code execution on the website's server OS. (The IP changed because I had to reset the target machine). 
 
 ![image](https://github.com/user-attachments/assets/938609e7-4c0d-41b8-ab71-f620f30dbfed)
 <br><br>

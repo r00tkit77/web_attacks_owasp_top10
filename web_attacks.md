@@ -145,6 +145,7 @@ Mitigation: Disable unused features and services, configure security headers, ap
 
 Using outdated libraries, frameworks or software components with known vulnerabilities can expose the application to exploits including third-party softwares.
 
+Tools like whatweb can identify web technologies
 Example:
 
 Here we have a vulnerable online book store.
